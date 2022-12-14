@@ -1,0 +1,7 @@
+{
+	title: "Making things pretty",
+	icon: "additionallanterns:normal_lantern",
+	always_invisible: false,
+	group: -2115883217,
+	default_quest_shape: ""
+}

@@ -1,0 +1,32 @@
+{
+	title: "Goodbye Wood",
+	icon: "minecraft:stone_pickaxe",
+	x: 9.0d,
+	y: 0.0d,
+	description: "Time to chuck those wooden tools into a Furnace",
+	text: [
+		""
+	],
+	dependencies: [
+		"b3ae8c51"
+	],
+	tasks: [{
+		uid: "456cda5c",
+		type: "item",
+		title: "A Stone Tool",
+		items: [{
+			item: "minecraft:stone_pickaxe"
+		},
+		{
+			item: "minecraft:stone_axe"
+		},
+		{
+			item: "minecraft:stone_shovel"
+		},
+		{
+			item: "minecraft:stone_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

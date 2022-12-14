@@ -1,0 +1,32 @@
+{
+	title: "Wood but smaller",
+	icon: "minecraft:stick",
+	x: 3.0d,
+	y: -1.5d,
+	description: "You can pretend it's Magic Wand!",
+	text: [
+		""
+	],
+	dependencies: [
+		"94b805dd"
+	],
+	optional: true,
+	tasks: [{
+		uid: "6ecf7b6a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "stickWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any stickWood"
+				}
+			}
+		}]
+	}]
+}

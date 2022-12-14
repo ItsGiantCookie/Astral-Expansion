@@ -1,0 +1,66 @@
+{
+	title: "All kinds of dirt",
+	icon: "minecraft:clay_ball",
+	x: 1.5d,
+	y: 0.0d,
+	dependencies: [
+		"7bd440e3"
+	],
+	tasks: [{
+		uid: "8f98b7f9",
+		type: "item",
+		icon: "minecraft:clay_ball",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "clay",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any clay"
+				}
+			}
+		}]
+	},
+	{
+		uid: "5eb06f0f",
+		type: "item",
+		icon: "minecraft:sand",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "sand",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any sand"
+				}
+			}
+		}]
+	},
+	{
+		uid: "21b9e17f",
+		type: "item",
+		icon: "minecraft:gravel",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "gravel",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gravel"
+				}
+			}
+		}]
+	}]
+}

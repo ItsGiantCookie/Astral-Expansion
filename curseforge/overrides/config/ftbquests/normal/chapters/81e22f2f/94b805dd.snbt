@@ -1,0 +1,32 @@
+{
+	title: "Walk the plank!",
+	x: 3.0d,
+	y: 0.0d,
+	description: "Just like logs but smooth",
+	text: [
+		""
+	],
+	dependencies: [
+		"a5bbbe6b"
+	],
+	tasks: [{
+		uid: "8832bd6c",
+		type: "item",
+		icon: "minecraft:planks",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "plankWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plankWood"
+				}
+			}
+		}],
+		count: 4L
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "A warm Welcome",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Click the checkmark",
+	text: [
+		"Hi there!",
+		"Welcome to my little project, I hope you'll enjoy it as much as I did making it.",
+		"",
+		"Now onto the Gameplay!"
+	],
+	tasks: [{
+		uid: "33983d45",
+		type: "checkmark",
+		title: "A warm Welcome"
+	}],
+	rewards: [{
+		uid: "ba501286",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "Start"
+	}]
+}

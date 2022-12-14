@@ -1,0 +1,32 @@
+{
+	title: "Flimsy tools",
+	icon: "minecraft:wooden_pickaxe",
+	x: 6.0d,
+	y: 0.0d,
+	description: "Still better than using your Hands",
+	text: [
+		""
+	],
+	dependencies: [
+		"20794502"
+	],
+	tasks: [{
+		uid: "4b3656eb",
+		type: "item",
+		title: "A wooden Tool",
+		items: [{
+			item: "minecraft:wooden_pickaxe"
+		},
+		{
+			item: "minecraft:wooden_shovel"
+		},
+		{
+			item: "minecraft:wooden_axe"
+		},
+		{
+			item: "minecraft:wooden_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

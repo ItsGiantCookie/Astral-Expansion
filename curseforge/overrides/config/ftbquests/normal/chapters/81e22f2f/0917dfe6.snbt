@@ -1,0 +1,21 @@
+{
+	title: "It's gettin' hot in here",
+	x: 7.5d,
+	y: -1.5d,
+	dependencies: [
+		"b3ae8c51"
+	],
+	tasks: [{
+		uid: "3e61ba56",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "36429b79",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "chimney"
+	}]
+}

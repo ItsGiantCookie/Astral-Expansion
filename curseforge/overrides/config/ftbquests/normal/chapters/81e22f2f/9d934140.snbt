@@ -1,0 +1,23 @@
+{
+	x: 4.5d,
+	y: -1.5d,
+	dependencies: [
+		"13ae9d46",
+		"e1964ed4"
+	],
+	optional: true,
+	tasks: [{
+		uid: "e49054b3",
+		type: "item",
+		items: [{
+			item: "minecraft:torch"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "ce1f33b6",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "lanterns"
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 7.5d,
+	y: -6.0d,
+	dependencies: [
+		"76bc4758"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c7353d01",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "polvents",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any polvents"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

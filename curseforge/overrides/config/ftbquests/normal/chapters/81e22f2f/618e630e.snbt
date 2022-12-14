@@ -1,0 +1,27 @@
+{
+	x: 7.5d,
+	y: -7.5d,
+	dependencies: [
+		"75c4dfe5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "69903730",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "polpumps",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any polpumps"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

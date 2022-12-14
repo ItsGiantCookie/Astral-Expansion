@@ -1,0 +1,23 @@
+{
+	title: "Something's Burning...",
+	icon: "minecraft:coal",
+	x: 6.0d,
+	y: -1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"944b11aa"
+	],
+	tasks: [{
+		uid: "445bdd44",
+		type: "item",
+		title: "Coal",
+		items: [{
+			item: "minecraft:coal"
+		},
+		{
+			item: "minecraft:coal 1 1"
+		}]
+	}]
+}

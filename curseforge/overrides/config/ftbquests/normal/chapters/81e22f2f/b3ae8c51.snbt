@@ -1,0 +1,27 @@
+{
+	x: 7.5d,
+	y: 0.0d,
+	dependencies: [
+		"944b11aa"
+	],
+	tasks: [{
+		uid: "2510dd4a",
+		type: "item",
+		title: "Cobblestone",
+		icon: "minecraft:cobblestone",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "cobblestone",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any cobblestone"
+				}
+			}
+		}]
+	}]
+}

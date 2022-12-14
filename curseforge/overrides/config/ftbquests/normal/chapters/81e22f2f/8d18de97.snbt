@@ -1,0 +1,27 @@
+{
+	title: "Pollution",
+	x: 7.5d,
+	y: -3.0d,
+	description: "Who would have thought fire in a enclosed room is a bad idea?",
+	text: [
+		"In this Modpack most machines produce some kind of pollution, either as Carbon, Sulfur or Dust, which all have diffrent effects on the Ecosystem.",
+		"You will have to manage these with the help of different Machines and Filters.",
+		"",
+		"A warning up front, a room full of pollutants can explode!"
+	],
+	dependencies: [
+		"0917dfe6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2c481d82",
+		type: "checkmark",
+		title: "Pollution"
+	}],
+	rewards: [{
+		uid: "f928f1f6",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "por1"
+	}]
+}

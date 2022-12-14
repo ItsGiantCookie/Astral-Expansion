@@ -1,0 +1,32 @@
+{
+	title: "Crafting Tables",
+	x: 4.5d,
+	y: 0.0d,
+	description: "An essential Block",
+	text: [
+		""
+	],
+	dependencies: [
+		"94b805dd"
+	],
+	tasks: [{
+		uid: "95dc8036",
+		type: "item",
+		title: "Crafting Table",
+		icon: "minecraft:crafting_table",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "workbench",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any workbench"
+				}
+			}
+		}]
+	}]
+}

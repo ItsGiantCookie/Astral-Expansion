@@ -1,0 +1,32 @@
+{
+	title: "Getting Started",
+	icon: "minecraft:log",
+	x: 1.5d,
+	y: 0.0d,
+	description: "The beginning of a path towards great things",
+	text: [
+		""
+	],
+	dependencies: [
+		"ff9c577b"
+	],
+	tasks: [{
+		uid: "b3cad12b",
+		type: "item",
+		icon: "minecraft:log",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}]
+	}]
+}
