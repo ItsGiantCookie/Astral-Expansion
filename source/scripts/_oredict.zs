@@ -449,6 +449,11 @@ var oreDc as IItemStack[][IOreDictEntry] = {
         <conarm:armorforge>.withTag({textureBlock: {Damage: 8 as short}}),
         <conarm:armorforge>.withTag({textureBlock: {Damage: 9 as short}})
 
+    ],
+
+    #circuitUltimate
+    <ore:circuitUltimate>: [
+        <contenttweaker:soc_circuit_board>
     ]
 };
 
