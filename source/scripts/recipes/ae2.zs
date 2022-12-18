@@ -6,8 +6,17 @@ recipes.remove(<appliedenergistics2:quantum_ring>);
 recipes.remove(<appliedenergistics2:material:43>);
 recipes.remove(<appliedenergistics2:material:44>);
 recipes.remove(<appliedenergistics2:inscriber>);
+recipes.remove(<appliedenergistics2:crafting_unit>);
+recipes.remove(<appliedenergistics2:quantum_link>);
+recipes.remove(<appliedenergistics2:charger>);
 
 //Extended Crafting Recipes
+
+recipes.addShaped(<appliedenergistics2:charger>, [
+	[<moreplates:certus_quartz_plate>, <ore:crystalFluix>, <moreplates:certus_quartz_plate>], 
+	[<magneticraft:battery_item_low>, null, null], 
+	[<moreplates:certus_quartz_plate>, <ore:crystalFluix>, <moreplates:certus_quartz_plate>]
+]);
 
 recipes.addShaped(<appliedenergistics2:inscriber>, [
 	[<magneticraft:light_plates>, <minecraft:sticky_piston>, <magneticraft:light_plates>], 

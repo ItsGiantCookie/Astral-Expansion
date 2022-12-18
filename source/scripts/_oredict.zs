@@ -8,7 +8,7 @@ import crafttweaker.oredict.IOreDictEntry;
 
 print("--- Ore Dictionary Start ---");
 
-var advChim as IItemStack[][IOreDictEntry] = {
+var oreDc as IItemStack[][IOreDictEntry] = {
     #chimneys
     <ore:chimneys>: [
         <adchimneys:bedrock>,
@@ -124,7 +124,6 @@ var advChim as IItemStack[][IOreDictEntry] = {
         <adchimneys:seared_brick_fancy>, 
         <adchimneys:seared_brick_small>, 
         <adchimneys:seared_brick_triangle>, 
-        <adchimneys:smoker>, 
         <adchimneys:soul_sand>, 
         <adchimneys:stone>, 
         <adchimneys:stone_andesite>, 
@@ -253,7 +252,6 @@ var advChim as IItemStack[][IOreDictEntry] = {
         <adchimneys:seared_brick_fancy:1>, 
         <adchimneys:seared_brick_small:1>, 
         <adchimneys:seared_brick_triangle:1>, 
-        <adchimneys:smoker:1>, 
         <adchimneys:soul_sand:1>, 
         <adchimneys:stone:1>, 
         <adchimneys:stone_andesite:1>, 
@@ -382,7 +380,6 @@ var advChim as IItemStack[][IOreDictEntry] = {
         <adchimneys:seared_brick_fancy:2>, 
         <adchimneys:seared_brick_small:2>, 
         <adchimneys:seared_brick_triangle:2>, 
-        <adchimneys:smoker:2>, 
         <adchimneys:soul_sand:2>, 
         <adchimneys:stone:2>, 
         <adchimneys:stone_andesite:2>, 
@@ -394,9 +391,67 @@ var advChim as IItemStack[][IOreDictEntry] = {
         <adchimneys:stonebrick:2>, 
         <adchimneys:stonebrick_cracked:2>, 
         <adchimneys:stonebrick_mossy:2>
+    ],
+
+    #partbuilder
+    <ore:partbuilder>: [
+        <tconstruct:tooltables:2>.withTag({textureBlock: {Damage: 0 as short}}),
+        <tconstruct:tooltables:2>.withTag({textureBlock: {Damage: 1 as short}}),
+        <tconstruct:tooltables:2>.withTag({textureBlock: {Damage: 2 as short}}),
+        <tconstruct:tooltables:2>.withTag({textureBlock: {Damage: 3 as short}}),
+        <tconstruct:tooltables:2>.withTag({textureBlock: {Damage: 4 as short}}),
+        <tconstruct:tooltables:2>.withTag({textureBlock: {Damage: 5 as short}}),
+        <tconstruct:tooltables:2>.withTag({textureBlock: {Damage: 6 as short}}),
+        <tconstruct:tooltables:2>.withTag({textureBlock: {Damage: 7 as short}}),
+        <tconstruct:tooltables:2>.withTag({textureBlock: {Damage: 8 as short}}),
+        <tconstruct:tooltables:2>.withTag({textureBlock: {Damage: 9 as short}})
+    ],
+    
+    #stenciltable
+    <ore:stenciltable>: [
+        <tconstruct:tooltables:1>.withTag({textureBlock: {Damage: 0 as short}}),
+        <tconstruct:tooltables:1>.withTag({textureBlock: {Damage: 1 as short}}),
+        <tconstruct:tooltables:1>.withTag({textureBlock: {Damage: 2 as short}}),
+        <tconstruct:tooltables:1>.withTag({textureBlock: {Damage: 3 as short}}),
+        <tconstruct:tooltables:1>.withTag({textureBlock: {Damage: 4 as short}}),
+        <tconstruct:tooltables:1>.withTag({textureBlock: {Damage: 5 as short}}),
+        <tconstruct:tooltables:1>.withTag({textureBlock: {Damage: 6 as short}}),
+        <tconstruct:tooltables:1>.withTag({textureBlock: {Damage: 7 as short}}),
+        <tconstruct:tooltables:1>.withTag({textureBlock: {Damage: 8 as short}}),
+        <tconstruct:tooltables:1>.withTag({textureBlock: {Damage: 9 as short}})
+    ],
+
+    #toolforge
+    <ore:toolforge>: [
+        <tconstruct:toolforge>.withTag({textureBlock: {Damage: 0 as short}}),
+        <tconstruct:toolforge>.withTag({textureBlock: {Damage: 1 as short}}),
+        <tconstruct:toolforge>.withTag({textureBlock: {Damage: 2 as short}}),
+        <tconstruct:toolforge>.withTag({textureBlock: {Damage: 3 as short}}),
+        <tconstruct:toolforge>.withTag({textureBlock: {Damage: 4 as short}}),
+        <tconstruct:toolforge>.withTag({textureBlock: {Damage: 5 as short}}),
+        <tconstruct:toolforge>.withTag({textureBlock: {Damage: 6 as short}}),
+        <tconstruct:toolforge>.withTag({textureBlock: {Damage: 7 as short}}),
+        <tconstruct:toolforge>.withTag({textureBlock: {Damage: 8 as short}}),
+        <tconstruct:toolforge>.withTag({textureBlock: {Damage: 9 as short}})
+
+    ],
+
+    #armorforge
+    <ore:armorforge>: [
+        <conarm:armorforge>.withTag({textureBlock: {Damage: 0 as short}}),
+        <conarm:armorforge>.withTag({textureBlock: {Damage: 1 as short}}),
+        <conarm:armorforge>.withTag({textureBlock: {Damage: 2 as short}}),
+        <conarm:armorforge>.withTag({textureBlock: {Damage: 3 as short}}),
+        <conarm:armorforge>.withTag({textureBlock: {Damage: 4 as short}}),
+        <conarm:armorforge>.withTag({textureBlock: {Damage: 5 as short}}),
+        <conarm:armorforge>.withTag({textureBlock: {Damage: 6 as short}}),
+        <conarm:armorforge>.withTag({textureBlock: {Damage: 7 as short}}),
+        <conarm:armorforge>.withTag({textureBlock: {Damage: 8 as short}}),
+        <conarm:armorforge>.withTag({textureBlock: {Damage: 9 as short}})
+
     ]
 };
 
-for oreDictEntry, items in advChim {
+for oreDictEntry, items in oreDc {
     oreDictEntry.addItems(items);
 }

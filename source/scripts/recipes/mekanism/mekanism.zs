@@ -1,5 +1,3 @@
-import mods.mekanism.infuser;
-
 //Metalurgic Infuser Changes
 
 recipes.remove(<mekanism:machineblock:8>);
@@ -17,5 +15,3 @@ recipes.addShaped(<mekanism:machineblock:5>, [
 ]);
 
 
-infuser.addRecipe("CARBON", 10, <minecraft:iron_ingot>, <thermalfoundation:material:160>);
-infuser.addRecipe("CARBON", 10, <minecraft:iron_block>, <thermalfoundation:storage_alloy>);
